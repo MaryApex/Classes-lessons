@@ -14,9 +14,9 @@ public class Main_Robot {
        CoffeeRobot lavazza = new CoffeeRobot();
        lavazza.work();
 
-       Object[] Robot = {robot1,jamieOliver,vladYama,lavazza};
-       for (int i = 0; i < Robot.length; i++){
-           System.out.println(Robot[i]); // чому тут повертає значення класів а не обєктів?
+       Robot[] robotMass = {robot1,jamieOliver,vladYama,lavazza};
+       for (int i = 0; i < robotMass.length; i++){
+           robotMass[i].work();
        }
 
 
