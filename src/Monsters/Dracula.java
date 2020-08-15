@@ -1,6 +1,6 @@
 package Monsters;
 
-public class Dracula implements Monster {
+public class Dracula extends HorribleMonster implements Monster {
     @Override
     public void destroy() {
 
@@ -8,6 +8,11 @@ public class Dracula implements Monster {
 
     @Override
     public void kill() {
+
+    }
+
+    @Override
+    public void scareChildren() {
 
     }
 }
