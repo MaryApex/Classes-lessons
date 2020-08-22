@@ -19,7 +19,7 @@ public class Su_27 extends Airplane_Control implements Super_Powers {
     public void technoStells() {
         Random randomTime = new Random();
         int invisibleTime = randomTime.nextInt(100);
-        System.out.println("The airplane is invisible during " + invisibleTime + "minutes. " );
+        System.out.println("The airplane is invisible during " + invisibleTime + " minutes." );
 
     }
 
